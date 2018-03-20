@@ -1,0 +1,11 @@
+rootProject.name = 'Wally'
+include ':react-native-wallpaper-manager'
+project(':react-native-wallpaper-manager').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-wallpaper-manager/android')
+include ':react-native-tabbed-view-pager-android'
+project(':react-native-tabbed-view-pager-android').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-tabbed-view-pager-android/android')
+include ':react-native-push-notification'
+project(':react-native-push-notification').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-push-notification/android')
+include ':react-native-fetch-blob'
+project(':react-native-fetch-blob').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fetch-blob/android')
+
+include ':app'

@@ -18,8 +18,8 @@ export default class CollectionModel extends Component<Props> {
         });
     }
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             imageUrl: '',
             imageName: ''

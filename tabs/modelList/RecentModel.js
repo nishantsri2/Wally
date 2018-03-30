@@ -17,8 +17,8 @@ export default class RecentModel extends Component<Props> {
         });
     }
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             imageUrl: '',
             imageName: ''

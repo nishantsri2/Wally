@@ -5,12 +5,12 @@ import {Constants} from "./Constants";
 
 type Props = {};
 
-export default class CategoryItemScreen extends View {
+export default class CategoryItemScreen extends Component<Props> {
     static navigationOptions = {
         header: null
     };
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             isLoading: true,
             isError: false

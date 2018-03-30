@@ -5,9 +5,9 @@ import {Constants} from "./Constants";
 
 type Props = {};
 
-export default class Categories extends View {
-    constructor() {
-        super();
+export default class Categories extends Component<Props> {
+    constructor(props) {
+        super(props);
         this.state = {
             isLoading: true,
             isError: false

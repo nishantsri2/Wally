@@ -4,9 +4,9 @@ import RecentModel from "./modelList/RecentModel";
 import {Constants} from "./Constants";
 type Props = {};
 
-export default class Recents extends View {
-    constructor() {
-        super();
+export default class Recent extends Component<Props> {
+    constructor(props) {
+        super(props);
         this.state = {
             isLoading: true,
             isError: false

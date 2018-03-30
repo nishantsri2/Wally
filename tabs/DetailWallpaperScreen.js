@@ -10,8 +10,8 @@ export default class DetailWallpaperScreen extends Component<Props> {
     static navigationOptions = {
         header: null,
     };
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             imageUrl: '',
             imageName: ''

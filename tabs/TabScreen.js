@@ -25,8 +25,8 @@ export default class TabScreen extends Component<Props> {
     static navigationOptions = {
         header: null,
     };
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             selectedTab: 'recent'
         };
